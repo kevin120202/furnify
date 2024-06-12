@@ -1,0 +1,33 @@
+.living {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 3rem;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.living h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .175rem;
+    font-weight: 400;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 940px) {
+    .grid-items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-items {
+        grid-template-columns: 1fr;
+    }
+}
