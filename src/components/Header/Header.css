@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    padding: 0 90px;
+}
+
+.site-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+header nav ul li:hover {
+    color: #161616;
+    text-decoration: underline;
+}
+
+.cart {
+    cursor: pointer;
+}
