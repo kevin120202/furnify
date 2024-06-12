@@ -1,19 +1,13 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import formatToDollar from '../../utilities/formatToDollar';
 
 import "./Item.css"
 
 function Item({ item }) {
 
-    const formatToDollar = (num) => {
-        return new Intl.NumberFormat('en-US', {
-            style: 'currency',
-            currency: 'USD'
-        }).format(num);
-    };
-
     return (
-        <Link className='item'>
+        <Link className='item' to={`/living/${item.id}`}>
             <img src={item.image} alt="furniture img" />
             <div className="info">
                 <p>{item.name}</p>

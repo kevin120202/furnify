@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'
 import Living from './pages/Living/Living'
 import Dining from './pages/Dining/Dining'
 import Bedroom from './pages/Bedroom/Bedroom'
+import LivingDetails from './pages/LivingDetails/LivingDetails'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
                 <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path='living' element={<Living />} />
+                    <Route path='living/:id' element={<LivingDetails />} />
                     <Route path='dining' element={<Dining />} />
                     <Route path='bedroom' element={<Bedroom />} />
                 </Route>

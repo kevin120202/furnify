@@ -3,7 +3,7 @@ import "./Footer.css"
 
 function Footer() {
     return (
-        <div>Footer</div>
+        <footer>&#169; 2022 Furnify</footer>
     )
 }
 

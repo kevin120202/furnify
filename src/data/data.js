@@ -6,8 +6,6 @@ import lintel from "../assets/living/lintel.jpg"
 import viva from "../assets/living/viva.jpg"
 
 
-
-
 const data = [
     {
         id: "blaise",

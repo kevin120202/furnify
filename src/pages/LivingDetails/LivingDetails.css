@@ -1,0 +1,47 @@
+.living-details {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.living-details img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.furniture-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.furniture-details p {
+    max-width: 80%;
+}
+
+.furniture-details button {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    align-self: self-start;
+}
+
+.furniture-details button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 940px) {
+    .living-details {
+        grid-template-columns: 1fr;
+    }
+}

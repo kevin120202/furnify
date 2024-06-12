@@ -13,7 +13,7 @@ function Living() {
     }, [])
 
     const livingEls = furnitureData.map(item => (
-        <Item item={item} />
+        <Item item={item} key={item.id} category="living" />
     ))
 
     return (
