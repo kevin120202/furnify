@@ -5,7 +5,8 @@ import Home from './pages/Home/Home'
 import Living from './pages/Living/Living'
 import Dining from './pages/Dining/Dining'
 import Bedroom from './pages/Bedroom/Bedroom'
-import LivingDetails from './pages/LivingDetails/LivingDetails'
+import LivingDetails from './pages/Living/LivingDetails'
+import DiningDetails from './pages/Dining/DiningDetails'
 
 function App() {
 
@@ -17,7 +18,9 @@ function App() {
                     <Route path='living' element={<Living />} />
                     <Route path='living/:id' element={<LivingDetails />} />
                     <Route path='dining' element={<Dining />} />
+                    <Route path='dining/:id' element={<DiningDetails />} />
                     <Route path='bedroom' element={<Bedroom />} />
+                    {/* <Route path='bedrooom/:id' element={<BedroomDetails />} /> */}
                 </Route>
             </Routes>
         </BrowserRouter>

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import "./Living.css"
 import data from "../../data/data"
 import Item from '../../components/Item/Item'
 
@@ -17,7 +16,7 @@ function Living() {
     ))
 
     return (
-        <div className='living'>
+        <div className='items-container'>
             <h2>Living Room Furniture</h2>
             <div className="grid-items">
                 {livingEls}

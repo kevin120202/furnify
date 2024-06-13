@@ -7,7 +7,7 @@ import "./Item.css"
 function Item({ item }) {
 
     return (
-        <Link className='item' to={`/living/${item.id}`}>
+        <Link className='item' to={`/${item.category}/${item.id}`}>
             <img src={item.image} alt="furniture img" />
             <div className="info">
                 <p>{item.name}</p>

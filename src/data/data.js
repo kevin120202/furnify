@@ -4,54 +4,60 @@ import driftwood from "../assets/living/driftwood.jpg"
 import fashio from "../assets/living/fashio.jpg"
 import lintel from "../assets/living/lintel.jpg"
 import viva from "../assets/living/viva.jpg"
-
+import blaise from "../assets/bedroom/blaise.jpg"
+import kiki from "../assets/bedroom/kiki.jpg"
+import mentor from "../assets/bedroom/mentor.jpg"
+import virtual from "../assets/bedroom/virtual.jpg"
+import materia from '../assets/dining/materia.jpg'
+import ondeo from '../assets/dining/ondeo.jpg'
+import steedy from '../assets/dining/steedy.jpg'
 
 const data = [
     {
         id: "blaise",
         name: "BLAISE series",
-        // image: blaise,
+        image: blaise,
         price: 3299000,
         category: "bedroom",
     },
     {
         id: "kiki",
         name: "KIKI series",
-        // image: kiki,
+        image: kiki,
         price: 2799000,
         category: "bedroom",
     },
     {
         id: "mentor",
         name: "MENTOR series",
-        // image: mentor,
+        image: mentor,
         price: 4999000,
         category: "bedroom",
     },
     {
         id: "virtual",
         name: "VIRTUAL series",
-        // image: virtual,
+        image: virtual,
         price: 5000000,
         category: "bedroom",
     }, {
         id: "materia",
         name: "MATERIA series",
-        // image: materia,
+        image: materia,
         price: 2599000,
         category: "dining",
     },
     {
         id: "ondeo",
         name: "ONDEO series",
-        // image: ondeo,
+        image: ondeo,
         price: 5999000,
         category: "dining",
     },
     {
         id: "steedy",
         name: "STEEDY series",
-        // image: steedy,
+        image: steedy,
         price: 4599000,
         category: "dining",
     },
