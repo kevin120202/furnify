@@ -1,0 +1,22 @@
+.product-img {
+    width: 70%;
+}
+
+.details {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.add-to-cart {
+    align-self: self-start;
+    background-color: black;
+    color: white;
+}
