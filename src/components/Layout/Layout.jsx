@@ -1,18 +1,16 @@
 import React from 'react'
 import { Outlet } from "react-router-dom"
-import Header from "../Header/Header"
-import Footer from "../Footer/Footer"
-import "../../index.css"
+import { Link } from "react-router-dom"
+import Header from "../header/Header"
 
 function Layout() {
     return (
-        <div className='site-container'>
+        <main>
             <Header />
-            <main>
+            <div className="main-content">
                 <Outlet />
-            </main>
-            {/* <Footer /> */}
-        </div>
+            </div>
+        </main>
     )
 }
 

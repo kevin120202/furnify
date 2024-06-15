@@ -1,12 +1,8 @@
-import { useState } from 'react'
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import Layout from './components/Layout/Layout'
-import Home from './pages/Home/Home'
-import Living from './pages/Living/Living'
-import Dining from './pages/Dining/Dining'
-import Bedroom from './pages/Bedroom/Bedroom'
-import LivingDetails from './pages/Living/LivingDetails'
-import DiningDetails from './pages/Dining/DiningDetails'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Layout from "./components/layout/Layout"
+import Home from "./pages/Home"
+import Products from "./pages/products/Products"
+import Cart from "./pages/cart/Cart"
 
 function App() {
 
@@ -15,12 +11,9 @@ function App() {
             <Routes>
                 <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
-                    <Route path='living' element={<Living />} />
-                    <Route path='living/:id' element={<LivingDetails />} />
-                    <Route path='dining' element={<Dining />} />
-                    <Route path='dining/:id' element={<DiningDetails />} />
-                    <Route path='bedroom' element={<Bedroom />} />
-                    {/* <Route path='bedrooom/:id' element={<BedroomDetails />} /> */}
+                    <Route path="products" element={<Products />} />
+                    {/* <Route path="products/:id" /> */}
+                    <Route path="cart" element={<Cart />} />
                 </Route>
             </Routes>
         </BrowserRouter>

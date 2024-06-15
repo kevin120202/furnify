@@ -1,10 +1,9 @@
 import React from 'react'
-import "./Cart.css"
 
 function Cart() {
     return (
-        <div className='cart'>
-
+        <div className='pages-container'>
+            <h2>cart</h2>
         </div>
     )
 }

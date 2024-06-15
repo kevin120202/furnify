@@ -11,104 +11,41 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
 button {
+    border: none;
+    padding: 15px 50px;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+.pages-container {
+    max-width: 1200px;
+    margin: 90px auto;
+    height: 100vh;
+    padding: 0 1rem;
 }
 
-.site-container {
-    min-height: 100vh;
-    width: 100%;
-}
-
-main {
-    padding-top: 80px;
-}
-
-.items-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-top: 3rem;
-    min-height: 100vh;
-    padding-bottom: 5rem;
-}
-
-.items-container h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .175rem;
-    font-weight: 400;
-}
-
-.grid-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-}
-
-.details {
-    margin-top: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    min-height: 70vh;
-}
-
-.grid-details {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
-
-.details img {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.furniture-details {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.furniture-details p {
-    max-width: 80%;
-}
-
-.furniture-details button {
-    background-color: lightgray;
-    color: black;
-    border: none;
-    text-transform: uppercase;
-    padding: 1rem 2rem;
-    font-size: 1.3rem;
-    font-weight: 700;
-    align-self: self-start;
-}
-
-.furniture-details button:hover {
-    background-color: black;
+.hero {
+    background-image: url("./assets/bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
     color: white;
-}
-
-@media screen and (max-width: 940px) {
-    .grid-items {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .grid-details {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .grid-items {
-        grid-template-columns: 1fr;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
