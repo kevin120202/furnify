@@ -20,3 +20,20 @@
     background-color: black;
     color: white;
 }
+
+.quantity-btn {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn p {
+    padding: 0 12px;
+}
+
+.quantity-btn button {
+    padding: 0;
+    width: 40px;
+    margin: 0;
+    font-size: 20px;
+    height: 30px;
+}

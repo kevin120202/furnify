@@ -4,7 +4,8 @@ import "./Products.css"
 import data from "../../data/data"
 import formatToDollar from "../../utilities/formatToDollar"
 
-function Products() {
+
+export default function Products() {
     const [products, setProducts] = useState(data)
 
     const productsEls = products.map(product => (
@@ -28,5 +29,3 @@ function Products() {
         </div>
     )
 }
-
-export default Products
