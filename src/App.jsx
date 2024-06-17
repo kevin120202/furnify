@@ -5,19 +5,20 @@ import Home from "./pages/Home"
 import Products from "./pages/products/Products"
 import Cart from "./pages/cart/Cart"
 import ProductDetails from "./components/productDetail/ProductDetails"
+// import kiki from "./assets/bedroom/kiki.jpg"
 
 const CartContext = createContext()
 
 function App() {
     const [cart, setCart] = useState([
-        {
-            id: "kiki",
-            name: "KIKI series",
-            image: "kiki",
-            price: 2799000,
-            category: "bedroom",
-            amaount: 1,
-        }
+        // {
+        //     id: "kiki",
+        //     name: "KIKI series",
+        //     image: kiki,
+        //     price: 2799000,
+        //     category: "bedroom",
+        //     amount: 1,
+        // }
     ])
 
 
