@@ -46,6 +46,7 @@
 
 .remove-item {
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 @media (width <=900px) {

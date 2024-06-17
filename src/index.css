@@ -18,7 +18,8 @@ a {
 
 h1 {
     font-size: 3rem;
-
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
 }
 
 button {

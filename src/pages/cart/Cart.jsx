@@ -26,7 +26,9 @@ function Cart() {
     }
 
     const removeItem = (id) => {
-        console.log(id);
+        setCart(prevCart => (
+            prevCart.filter(item => item.id != id)
+        ))
     }
 
     const cartEls = cart.map(item => (
